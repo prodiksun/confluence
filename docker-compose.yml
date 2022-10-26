@@ -28,9 +28,9 @@ services:
     volumes:
       - postgresqldata:/var/lib/postgresql/data
     environment:
-      - 'POSTGRES_USER=prodik'
+      - 'POSTGRES_USER=postgres'
       # CHANGE THE PASSWORD!
-      - 'POSTGRES_PASSWORD=prodik'
+      - 'POSTGRES_PASSWORD=postgres'
       - 'POSTGRES_DB=confluencedb'
       - 'POSTGRES_ENCODING=UTF8'
       - 'POSTGRES_COLLATE=C'
